@@ -13,9 +13,9 @@ const newNumbers = numbers.map(x => x * 2);
 const newNumbers2 = numbers.filter(num => num < 10);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
-// var newNumber = numbers.reduce(function (accumulator, currentNumber) {
-//     return accumulator + currentNumber;
-// })
+var newNumber3 = numbers.reduce(
+  (accumulator, currentNumber) => accumulator + currentNumber
+);
 
 ////Find - find the first item that matches from an array.
 // const newNumber = numbers.find(function (num) {
