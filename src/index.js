@@ -18,9 +18,7 @@ var newNumber3 = numbers.reduce(
 );
 
 ////Find - find the first item that matches from an array.
-// const newNumber = numbers.find(function (num) {
-//   return num > 10;
-// })
+const newNumber4 = numbers.find(num => num > 10);
 
 ////FindIndex - find the index of the first item that matches.
 // const newNumber = numbers.findIndex(function (num) {
