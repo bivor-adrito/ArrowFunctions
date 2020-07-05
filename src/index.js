@@ -21,6 +21,16 @@ var newNumber3 = numbers.reduce(
 const newNumber4 = numbers.find(num => num > 10);
 
 ////FindIndex - find the index of the first item that matches.
-// const newNumber = numbers.findIndex(function (num) {
-//   return num > 10;
-// })
+const newNumber5 = numbers.findIndex(num => num > 10);
+console.log(
+  "Map: " +
+    newNumbers +
+    "\nfilter: " +
+    newNumbers2 +
+    "\nreduce: " +
+    newNumber3 +
+    "\nFind: " +
+    newNumber4 +
+    "\nfindIndex: " +
+    newNumber5
+);
